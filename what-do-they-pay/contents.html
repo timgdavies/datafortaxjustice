@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- Use title if it's in the page YAML frontmatter -->
+        <title>Open Data for Tax Justice</title>
+        <meta name="description" content="We’re working to create a global network of people and organisations using open data to improve advocacy, journalism and public policy around tax justice.">
+        <meta name="viewport" content="width=device-width">
+
+        <meta property="og:title" content="Open Data for Tax Justice" />
+        <meta property="og:description" content="We’re working to create a global network of people and organisations using open data to improve advocacy, journalism and public policy around tax justice." />
+        <meta property="og:image" content="http://datafortaxjustice.net/thumb.jpg"/>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href='//fonts.googleapis.com/css?family=Cabin:400,400italic,700,600' rel='stylesheet' type='text/css'>
+        <link href="//fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css"/>
+        <link href="/css/main.css" rel="stylesheet" type="text/css" />
+        <script src="/js/vendor/modernizr-custom.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="ok-panel" class="closed"><div class="container"><iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"></iframe></div></div>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <ul>
+  <li>
+    <a href="#acknowledgements">Acknowledgements</a>
+  </li>
+  <li>
+    <a href="#introduction">Introduction</a>
+  </li>
+  <li>
+    <a href="#who-would-use-a-public-database-and-how">1. Who Would Use A Public Database and How?</a>
+    <ul>
+      <li><a href="#citizens-and-civil-society-groups">Citizens and Civil Society Groups</a></li>
+      <li><a href="#journalists-and-media-organisations">Journalists and Media Organisations</a></li>
+      <li><a href="#researchers-and-academics">Researchers and Academics</a></li>
+      <li><a href="#companies-and-investors">Companies and Investors</a></li>
+      <li><a href="#public-institutions-and-international-organisations">Public Institutions and International Organisations</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#what-should-a-public-database-contain">2. What Should A Public Database Contain?</a>
+    <ul>
+      <li><a href="#country-by-country-reporting-civil-society-proposals-and-the-oecd-standard">Country-by-Country Reporting: Civil Society Proposals and the OECD Standard</a></li>
+      <li><a href="#beyond-country-by-country-reporting-data">Beyond Country-by-Country Reporting Data?</a></li>
+      <li><a href="#beneficial-ownership-and-other-company-information">Beneficial Ownership and Other Company Information</a></li>
+      <li><a href="#additional-contextual-information">Additional Contextual Information</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#what-are-the-prospects-of-a-public-database-from-existing-information-sources">3. What Are the Prospects of a Public Database from Existing Information Sources?</a>
+    <ul>
+      <li><a href="#how-do-corporate-disclosure-rules-measure-up-to-civil-society-and-oecd-standards">How Do Corporate Disclosure Rules Measure Up to Civil Society and OECD Standards?</a></li>
+      <li><a href="#the-oecd-standard-national-and-regional-implementations">The OECD Standard: National and Regional Implementations</a></li>
+      <li><a href="#sector-specific-information">Sector Specific Information</a></li>
+      <li><a href="#extractive-industries-data">Extractive Industries Data</a></li>
+      <li><a href="#financial-institutions">Financial Institutions</a></li>
+      <li><a href="#voluntary-cbcr-information">Voluntary CBCR Information</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#what-are-the-next-steps">4. What Are the Next Steps?</a>
+    <ul>
+      <li><a href="#building-a-pilot-civil-society-database">Building a Pilot Civil Society Database</a></li>
+      <li><a href="#further-advocacy-policy-and-research-work">Further Advocacy, Policy and Research Work</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#references">References</a>
+  </li>
+</ul>
+
+
+        <footer class="site-footer">
+  <div class="wrapper">
+
+    <p>
+      The #OD4TJ network is coordinated by Open Knowledge and the Tax Justice Network.
+    </p>
+
+    <a class="footer-logo" href="https://okfn.org/">
+      <img src="https://a.okfn.org/img/oki/landscape-white-468x122.png" alt="Open Knowledge International">
+    </a>
+    <a class="tjn" href="http://www.taxjustice.net/">
+        <img src="/img/tjn-logo.png" alt="Tax Justice Network">
+    </a>
+    <ul class="footer-primary-links">
+      <li><a href="https://okfn.org/about/">About</a></li>
+    </ul>
+
+    <hr>
+
+    <div class="footer-secondary-links">
+      <ul>
+        <li><a href="https://okfn.org/privacy-policy/">Privacy policy</a></li>
+        <li><a href="https://okfn.org/ip-policy/">IP policy</a></li>
+        <li><a href="https://okfn.org/cookie-policy/">Cookie policy</a></li>
+        <li><a href="https://okfn.org/terms-of-use/">Terms of use</a></li>
+      </ul>
+
+      <ul class="footer-social">
+        <li><a href="https://facebook.com/OKFNetwork">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
+          </a></li>
+        <li>
+          <a href="https://twitter.com/okfn">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/user/openknowledgefdn">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="http://datafortaxjustice.net/js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script src="/js/plugins.js" type="text/javascript"></script>
+        <script src="/js/main.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.min.js"></script>
+        <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js" type="text/javascript"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-48682838-9'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
